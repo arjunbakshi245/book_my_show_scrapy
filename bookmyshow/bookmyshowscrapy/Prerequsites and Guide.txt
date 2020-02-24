@@ -1,0 +1,27 @@
+1. Modules and Libraries put to use:-
+	a) Scrapy(pip install scrapy)
+	b) Tkinter[GUI]
+	c) Pandas(pip install pandas)[for traversal and conversion of csv, text and html files]
+	d) Csv 	(by direct import)	
+Note: The scrapy module for the project was installed within a virtual environment to prohibit its relation with the PC
+      by cmd (virtualenv .) .
+
+2. pywin32 is also required to installed within the virtualenv or even outside.(pip install pywin)
+
+3. After completing the prereqisites and activating the virtual env type (scrapy startproject "Name")
+	"Name" in our project was stored as bookmyshow
+	This command through scrapy automatically creates the required docs and sets up a project.
+
+4. Once the code is complete , activate the virtual env by .\Scripts\activate after directing to the project folder , to run
+   the spider the command "scrapy crawl Namespider". In our project-- (scrapy crawl bookmyshowspider)
+
+5. SublimeText3 and Visual Studio Code were also used as the edidtors , as for compiling , we used the PC command line itself.  
+   	
+If this guide fails to assist then please visit the following link:-- 
+https://www.youtube.com/watch?v=UoLu3PIkO2c&list=PLhTjy8cBISEqkN-5Ku_kXG4QW33sxQo0t&index=5 
+
+6. Phases-4
+	a)Scraping data[scrapy]
+	b)Storing into text and into csv 
+	c)Converting the csv to an html file for a better display.
+	d)Integrating the above phases into a GUI.(tkinter) 
